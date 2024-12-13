@@ -6,12 +6,19 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct walkmydogApp: App {
+    @StateObject private var locationManager = LocationManager()
+    @StateObject private var viewModel = MapTrackingViewModel(locationManager: LocationManager())
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
+                .environmentObject(locationManager)
+                .environmentObject(viewModel)
+                .modelContainer(for: [Workout.self, RoutePoint.self])
         }
     }
 }

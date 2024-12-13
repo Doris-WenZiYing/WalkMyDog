@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  walkmydog
+//  WalkMyDogWatch Watch App
 //
-//  Created by App_team on 2024/12/10.
+//  Created by App_team on 2024/12/12.
 //
 
 import SwiftUI

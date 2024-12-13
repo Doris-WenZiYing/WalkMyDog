@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0BCA56B92D0AB51F00A5BC48 /* WalkMyDogWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0BCA56962D0AB51E00A5BC48 /* WalkMyDogWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0B66513D2D07E4210091319B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,17 +25,68 @@
 			remoteGlobalIDString = 0B66512B2D07E4200091319B;
 			remoteInfo = walkmydog;
 		};
+		0BCA56A62D0AB51E00A5BC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B6651242D07E4200091319B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BCA56952D0AB51E00A5BC48;
+			remoteInfo = "WalkMyDogWatch Watch App";
+		};
+		0BCA56B02D0AB51F00A5BC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B6651242D07E4200091319B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BCA56952D0AB51E00A5BC48;
+			remoteInfo = "WalkMyDogWatch Watch App";
+		};
+		0BCA56B72D0AB51F00A5BC48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B6651242D07E4200091319B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BCA56952D0AB51E00A5BC48;
+			remoteInfo = "WalkMyDogWatch Watch App";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0BCA56BA2D0AB51F00A5BC48 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0BCA56B92D0AB51F00A5BC48 /* WalkMyDogWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0B66512C2D07E4200091319B /* walkmydog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = walkmydog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B66513C2D07E4210091319B /* walkmydogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walkmydogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6651462D07E4210091319B /* walkmydogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = walkmydogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCA56962D0AB51E00A5BC48 /* WalkMyDogWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WalkMyDogWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCA56A52D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalkMyDogWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BCA56AF2D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WalkMyDogWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0B66515E2D07F2680091319B /* Exceptions for "walkmydog" folder in "walkmydog" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 0B66512B2D07E4200091319B /* walkmydog */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0B66512E2D07E4200091319B /* walkmydog */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0B66515E2D07F2680091319B /* Exceptions for "walkmydog" folder in "walkmydog" target */,
+			);
 			path = walkmydog;
 			sourceTree = "<group>";
 		};
@@ -43,6 +98,21 @@
 		0B6651492D07E4210091319B /* walkmydogUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = walkmydogUITests;
+			sourceTree = "<group>";
+		};
+		0BCA56972D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WalkMyDogWatch Watch App";
+			sourceTree = "<group>";
+		};
+		0BCA56A82D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WalkMyDogWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0BCA56B22D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WalkMyDogWatch Watch AppUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +139,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0BCA56932D0AB51E00A5BC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCA56A22D0AB51E00A5BC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCA56AC2D0AB51F00A5BC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +169,9 @@
 				0B66512E2D07E4200091319B /* walkmydog */,
 				0B66513F2D07E4210091319B /* walkmydogTests */,
 				0B6651492D07E4210091319B /* walkmydogUITests */,
+				0BCA56972D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */,
+				0BCA56A82D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests */,
+				0BCA56B22D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests */,
 				0B66512D2D07E4200091319B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,6 +182,9 @@
 				0B66512C2D07E4200091319B /* walkmydog.app */,
 				0B66513C2D07E4210091319B /* walkmydogTests.xctest */,
 				0B6651462D07E4210091319B /* walkmydogUITests.xctest */,
+				0BCA56962D0AB51E00A5BC48 /* WalkMyDogWatch Watch App.app */,
+				0BCA56A52D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests.xctest */,
+				0BCA56AF2D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,10 +199,12 @@
 				0B6651282D07E4200091319B /* Sources */,
 				0B6651292D07E4200091319B /* Frameworks */,
 				0B66512A2D07E4200091319B /* Resources */,
+				0BCA56BA2D0AB51F00A5BC48 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0BCA56B82D0AB51F00A5BC48 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				0B66512E2D07E4200091319B /* walkmydog */,
@@ -163,6 +262,74 @@
 			productReference = 0B6651462D07E4210091319B /* walkmydogUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		0BCA56952D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCA56C12D0AB51F00A5BC48 /* Build configuration list for PBXNativeTarget "WalkMyDogWatch Watch App" */;
+			buildPhases = (
+				0BCA56922D0AB51E00A5BC48 /* Sources */,
+				0BCA56932D0AB51E00A5BC48 /* Frameworks */,
+				0BCA56942D0AB51E00A5BC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				0BCA56972D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */,
+			);
+			name = "WalkMyDogWatch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "WalkMyDogWatch Watch App";
+			productReference = 0BCA56962D0AB51E00A5BC48 /* WalkMyDogWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BCA56A42D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCA56C22D0AB51F00A5BC48 /* Build configuration list for PBXNativeTarget "WalkMyDogWatch Watch AppTests" */;
+			buildPhases = (
+				0BCA56A12D0AB51E00A5BC48 /* Sources */,
+				0BCA56A22D0AB51E00A5BC48 /* Frameworks */,
+				0BCA56A32D0AB51E00A5BC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BCA56A72D0AB51E00A5BC48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BCA56A82D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests */,
+			);
+			name = "WalkMyDogWatch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "WalkMyDogWatch Watch AppTests";
+			productReference = 0BCA56A52D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0BCA56AE2D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BCA56C32D0AB51F00A5BC48 /* Build configuration list for PBXNativeTarget "WalkMyDogWatch Watch AppUITests" */;
+			buildPhases = (
+				0BCA56AB2D0AB51F00A5BC48 /* Sources */,
+				0BCA56AC2D0AB51F00A5BC48 /* Frameworks */,
+				0BCA56AD2D0AB51F00A5BC48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BCA56B12D0AB51F00A5BC48 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0BCA56B22D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests */,
+			);
+			name = "WalkMyDogWatch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "WalkMyDogWatch Watch AppUITests";
+			productReference = 0BCA56AF2D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +351,17 @@
 						CreatedOnToolsVersion = 16.0;
 						TestTargetID = 0B66512B2D07E4200091319B;
 					};
+					0BCA56952D0AB51E00A5BC48 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					0BCA56A42D0AB51E00A5BC48 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0BCA56952D0AB51E00A5BC48;
+					};
+					0BCA56AE2D0AB51F00A5BC48 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 0BCA56952D0AB51E00A5BC48;
+					};
 				};
 			};
 			buildConfigurationList = 0B6651272D07E4200091319B /* Build configuration list for PBXProject "walkmydog" */;
@@ -203,6 +381,9 @@
 				0B66512B2D07E4200091319B /* walkmydog */,
 				0B66513B2D07E4210091319B /* walkmydogTests */,
 				0B6651452D07E4210091319B /* walkmydogUITests */,
+				0BCA56952D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */,
+				0BCA56A42D0AB51E00A5BC48 /* WalkMyDogWatch Watch AppTests */,
+				0BCA56AE2D0AB51F00A5BC48 /* WalkMyDogWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +404,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0B6651442D07E4210091319B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCA56942D0AB51E00A5BC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCA56A32D0AB51E00A5BC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCA56AD2D0AB51F00A5BC48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,6 +455,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0BCA56922D0AB51E00A5BC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCA56A12D0AB51E00A5BC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BCA56AB2D0AB51F00A5BC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -265,6 +488,21 @@
 			isa = PBXTargetDependency;
 			target = 0B66512B2D07E4200091319B /* walkmydog */;
 			targetProxy = 0B6651472D07E4210091319B /* PBXContainerItemProxy */;
+		};
+		0BCA56A72D0AB51E00A5BC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BCA56952D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */;
+			targetProxy = 0BCA56A62D0AB51E00A5BC48 /* PBXContainerItemProxy */;
+		};
+		0BCA56B12D0AB51F00A5BC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BCA56952D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */;
+			targetProxy = 0BCA56B02D0AB51F00A5BC48 /* PBXContainerItemProxy */;
+		};
+		0BCA56B82D0AB51F00A5BC48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BCA56952D0AB51E00A5BC48 /* WalkMyDogWatch Watch App */;
+			targetProxy = 0BCA56B72D0AB51F00A5BC48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,6 +637,9 @@
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = walkmydog/Info.plist;
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app requires your precise location to track your outdoor runs and provide you with other services and features.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your precise location to track your outdoor runs and provide you with other services and features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +669,9 @@
 				DEVELOPMENT_TEAM = NU35GM8TLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = walkmydog/Info.plist;
+				INFOPLIST_KEY_NSLocationUsageDescription = "This app requires your precise location to track your outdoor runs and provide you with other services and features.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your precise location to track your outdoor runs and provide you with other services and features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -518,6 +762,146 @@
 			};
 			name = Release;
 		};
+		0BCA56BB2D0AB51F00A5BC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalkMyDogWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NU35GM8TLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WalkMyDogWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tomofun.walkmydog;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomofun.walkmydog.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		0BCA56BC2D0AB51F00A5BC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WalkMyDogWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NU35GM8TLX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WalkMyDogWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.tomofun.walkmydog;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomofun.walkmydog.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		0BCA56BD2D0AB51F00A5BC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU35GM8TLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomofun.WalkMyDogWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkMyDogWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalkMyDogWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		0BCA56BE2D0AB51F00A5BC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU35GM8TLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomofun.WalkMyDogWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WalkMyDogWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WalkMyDogWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		0BCA56BF2D0AB51F00A5BC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU35GM8TLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomofun.WalkMyDogWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WalkMyDogWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		0BCA56C02D0AB51F00A5BC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NU35GM8TLX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tomofun.WalkMyDogWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WalkMyDogWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +937,33 @@
 			buildConfigurations = (
 				0B6651572D07E4210091319B /* Debug */,
 				0B6651582D07E4210091319B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BCA56C12D0AB51F00A5BC48 /* Build configuration list for PBXNativeTarget "WalkMyDogWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCA56BB2D0AB51F00A5BC48 /* Debug */,
+				0BCA56BC2D0AB51F00A5BC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BCA56C22D0AB51F00A5BC48 /* Build configuration list for PBXNativeTarget "WalkMyDogWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCA56BD2D0AB51F00A5BC48 /* Debug */,
+				0BCA56BE2D0AB51F00A5BC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BCA56C32D0AB51F00A5BC48 /* Build configuration list for PBXNativeTarget "WalkMyDogWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BCA56BF2D0AB51F00A5BC48 /* Debug */,
+				0BCA56C02D0AB51F00A5BC48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
